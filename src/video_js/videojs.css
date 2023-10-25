@@ -1,0 +1,23 @@
+video{
+    
+    width: auto;
+    /* aspect-ratio: 16/9; */
+}
+
+.custom-logo {
+    position: absolute;
+    /* Adjust the position as needed */
+   right: 9px;/* Adjust the position as needed */
+    width: 70px; /* Adjust the size as needed */
+    z-index: 1; /* Ensure the logo appears above the video player */
+  }
+
+  .customButton {
+    position: absolute;
+    top: 330px; /* Adjust the top position as needed */
+    right: 1px; /* Adjust the right position as needed */
+    /* Adjust the size of the logo as needed */
+    /* z-index: 1; Ensure the logo is above the video */
+    width: 250px; 
+    max-height: 300px;
+  }
