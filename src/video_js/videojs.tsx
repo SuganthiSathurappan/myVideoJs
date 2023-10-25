@@ -52,9 +52,9 @@ export default class VideoPlayer extends Component<{}, MyComponentState> {
                         if (this.temp === 1) {                           
                             this.setState({ showImage: true });
                         }
-                        this.player.play()
+                        // this.player.play()
                     }
-                    
+
                     if (this.player.currentTime() >= 60) {
                         this.setState({ showImage: false });
                         if (this.temp === 1) {
@@ -76,7 +76,7 @@ export default class VideoPlayer extends Component<{}, MyComponentState> {
     }
 
     customButtonAction = () => {
-        this.temp = 2
+        // this.temp = 2
         // Define the action you want the custom button to perform
         // if (this.player.paused()) {
             // this.player.play();
