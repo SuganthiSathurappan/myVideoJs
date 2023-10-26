@@ -13,9 +13,9 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
 
     return (
         <div className=" fixed overflow-x-hidden overflow-y-auto outline-nonefixed inset-0 flex items-center justify-center z-50 bg-opacity-50 bg-gray-500 font-poppins">
-            <div className="relative  w-[700px] bg-white rounded-lg shadow-lg">
+            <div className="relative  w-[700px] bg-transparent ">
                 <div className="">{children}</div>
-                <button
+                {/* <button
                     className="absolute top-0 right-0 mt-3 mr-4 rounded-lg text-sm w-8 h-8 ml-auto inline-flex justify-center items-center
                      text-black bg-transparent hover:bg-gray-200 hover:text-gray-900"
                     onClick={onClose}
@@ -37,7 +37,7 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
                     </svg>
                     <span className="sr-only">Close modal</span>
                    
-                </button>
+                </button> */}
             </div>
         </div>
     );
